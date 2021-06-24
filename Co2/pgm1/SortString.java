@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.*;
 
 class StringArray{
@@ -24,7 +23,7 @@ class StringArray{
     }
 }
 
-public class SortString{
+class SortString{
     public static void main(String args[]){
         int limit;
         Scanner read = new Scanner(System.in);
