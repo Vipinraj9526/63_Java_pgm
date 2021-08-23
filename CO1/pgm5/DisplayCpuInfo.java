@@ -38,10 +38,10 @@ class CPU {
         p.processorDetails(read);
         RAM.ramDetails(read);
         System.out.println("\nProcessor Details");
-        System.out.println("__________________");
+        System.out.println("------------------");
         System.out.println("\nextLineNo of Cores : "+p.no_of_cores+"\nManufacturer : "+p.manufacturer+"\n");
         System.out.println("Memory Details");
-        System.out.println("__________________");
+        System.out.println("------------------");
         System.out.println("\nMemory size : "+RAM.memory+"GB\nManufacturer : "+RAM.manufacturer+"\n");
     }
 }

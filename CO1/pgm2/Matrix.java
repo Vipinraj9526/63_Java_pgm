@@ -28,7 +28,7 @@ for(int i=0;i<n;i++)
      }
  }
 
-System.out.println("Enter the element of first array matrix");
+System.out.println("The element of first array matrix");
 for(int i=0;i<n;i++)
  {
   for (int j=0;j<n;j++)
@@ -38,7 +38,7 @@ for(int i=0;i<n;i++)
   System.out.println();
  }
 
-System.out.println("Enter the element of second array matrix");
+System.out.println("The element of second array matrix");
 for(int i=0;i<n;i++)
  {
   for (int j=0;j<n;j++)

@@ -13,11 +13,11 @@ class StringArray {
         item = read.nextLine();
         for (int i = 0; i < str.length; i++) {
             if (item.equals(str[i])) {
-                System.out.println("Item found in the array!!!");
+                System.out.println("Item found in the array");
                 return;
             }
         }
-        System.out.println("Item not found!!!");
+       System.out.println("Item not found");
     }
 }
 
@@ -29,7 +29,7 @@ public class SearchArrayElement {
         limit = read.nextInt();
         read.nextLine();
         String[] str = new String[limit];
-        System.out.print("Enter Array Elements:");
+        System.out.print("Enter array elements:");
         for (int i = 0; i < limit; i++) {
             str[i] = read.nextLine();
         }

@@ -40,7 +40,7 @@ public class EmployeeDetails{
         for (int i=0 ; i < emp.length; i++){
             if (emp[i].eNo == eNum){
                 System.out.println("\tDetails of given Employee:");
-                System.out.println("\t____________________________");
+                System.out.println("\t-------------------");
                 System.out.println("\tEmployee Name: "+ emp[i].eName);
                 System.out.println("\tEmployee salary: "+ emp[i].eSalary);
                 return;
